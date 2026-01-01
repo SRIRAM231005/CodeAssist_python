@@ -10,9 +10,7 @@ Unlike a generic prompt-based setup, CodeAssist is built as a structured system 
 
 ## Demo
 
-<!-- Add demo video here -->
-
-> 📹 *Demo video showing end-to-end usage of CodeAssist (query → retrieval → explanation)*
+https://github.com/user-attachments/assets/82d96a08-1016-4911-90d7-8da8f6b7d9d9
 
 ---
 
@@ -148,4 +146,5 @@ streamlit run app/streamlit_app.py
 * Support for additional programming languages
 * Enhanced metadata filtering strategies
 * Optional persistence of user query history
+
 
