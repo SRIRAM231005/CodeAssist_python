@@ -1,0 +1,19 @@
+# Core utilities
+requests
+tqdm
+python-dotenv
+
+# UI
+streamlit
+
+# ML & embeddings
+torch
+numpy
+transformers
+datasets
+
+# Vector database
+chromadb
+
+# LLM
+google-generativeai
