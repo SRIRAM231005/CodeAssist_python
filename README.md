@@ -99,8 +99,8 @@ CodeAssist/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd CodeAssist
+git clone https://github.com/SRIRAM231005/CodeAssist_python
+cd CodeAssist_python
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
@@ -148,3 +148,4 @@ streamlit run app/streamlit_app.py
 * Support for additional programming languages
 * Enhanced metadata filtering strategies
 * Optional persistence of user query history
+
