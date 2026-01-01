@@ -6,12 +6,14 @@ import streamlit as st
 import torch
 import numpy as np
 import chromadb
+from dotenv import load_dotenv
 import google.generativeai as genai
 
 from transformers import RobertaTokenizer, RobertaModel
 
+load_dotenv()
 
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 DEVICE = "cpu"
 CODEBERT_MODEL = "microsoft/codebert-base"
